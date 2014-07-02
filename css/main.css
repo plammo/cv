@@ -1,0 +1,224 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#ECF0F1;
+}
+
+*{
+	box-sizing:border-box;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+hr{
+    width:50%;
+    height:1px;
+    margin-top:4%;
+}
+
+
+main{
+    width:1200px;
+    margin: 0 auto;
+}
+
+/*styles for the header section includes styling that is common e.g. fitness*/
+.header__banner{
+    float:left;
+    width:100%;
+    height:180px;
+    background-color: #87C8CC;
+}
+
+#header__logo{
+    float:left;
+    margin-left:10px;
+    width:200px;
+    height:200px;
+    margin-top:20px;
+    background-image: url("../img/plogo1.png");
+    background-repeat: no-repeat;
+}
+
+.header__banner h1{
+    font-size: 2em;
+    font-family: Thonburi;
+    color:#34495e;
+    text-align: center;
+    margin-top:65px;
+    float:left;
+    margin-left:5%;
+}
+
+.section__intro{
+    border:solid 5px #87C8CC;
+}
+
+#intro__bio, #fitness__bio{
+    float:left;
+    width:66%;
+    background-color: #ECF0F1;
+    //border:solid 3px #87C8CC;
+}
+
+#intro__bio p, #fitness__bio p{
+    margin-left:8%;
+    width:80%;
+    color:#34495e;
+    //text-align: center;
+    font-size: 1.20em;
+    font-family: Thonburi;
+    line-height: 1.75em;
+    margin-top:5%;
+}
+
+#intro__pic, #fitness__pic{
+    margin-top:3%;
+    float:left;
+    width:33%;
+    height:400px;
+    border:solid 2px #87C8CC;
+}
+
+
+/*styling for the skills section - includes styling that is common e.g. fitness*/
+
+.skills__banner{
+    float:left;
+    width:100%;
+    height:100px;
+    border:solid .35em #87C8CC;
+    margin-top:50px;
+}
+
+.section__skills h1, .section__fitness h1{
+    font-size: 2em;
+    font-family: Thonburi;
+    color:#34495e;
+    text-align: center;
+    float:left;
+    margin-left:5%;
+}
+
+#skills__bio1, #skills__bio2, #skills__bio3{
+    float:left;
+    width:29%;
+    margin-left:4%;
+    background-color: #ECF0F1;
+}
+
+#skills__bio1 p, #skills__bio2 p, #skills__bio3 p{
+    width:96%;
+    margin:13% 0 0 4%;
+    color:#34495e;
+    font-size: 1.20em;
+    font-family: Thonburi;
+    line-height: 1.75em;
+}
+
+
+.skills__logos, .skills__logos2{
+    
+    float:left;
+    width:80%;
+    margin-left:10%;
+    margin-top:5%;
+}
+
+
+
+.skills__logos img, .skills__logos2 img{
+    
+    float:left;
+    width:100%; 
+}
+
+#skills__webskills h2, #skills__busskills h2, #skills__coding h2{
+      
+    font-family: Verdana;
+    font-size: 1.25em;
+    margin-left:5%;
+    color:#2c3e50;
+}
+
+#skills__webskills, #skills__busskills, #skills__coding{
+    margin:4% 0;
+    float:left;
+    width:29%;
+    color:#ecf0f1;
+    font-size: 1em;
+    font-family: Arial;
+    line-height: 1.35em;
+    border:solid .35em #E74C3C;
+    border-radius: .75em;
+    margin-top:5%;
+}
+
+#skills__webskills{
+    
+    margin-left:3%;
+}
+
+#skills__coding{
+    
+    margin-left:3%;
+}
+
+#skills__busskills{
+    margin-left:3%;
+}
+
+#skills__busskills ul li, #skills__webskills ul li{
+   
+    list-style-type: circle;
+    color:#34495e;
+}
+
+ #skills__coding ul li{
+    
+    list-style-type: square;
+    color:#34495e;
+ }
+
+
+/*styling for the fitness specific section*/
+
+.section__fitness h1{
+    width:100%;
+}
+
+
+.fitness__banner{
+    float:left;
+    width:100%;
+    height:100px;
+    border:solid .35em #87C8CC;
+    margin-top:65px;
+}
+
+/*styling for the footer*/
+
+ footer{
+    float:left;
+    height:200px;
+    width:100%;
+    background-color:gray;
+    margin-top:5%;
+ }
+
+
+
+
+
