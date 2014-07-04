@@ -1,0 +1,283 @@
+body {
+    margin:0;
+    padding:0;
+    background-color:#ECF0F1;
+}
+
+* {
+	box-sizing:border-box;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+hr {
+    height: 12px;
+    border:0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+    width:50%;
+}    
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width:1200px;
+    margin: 0 auto;
+    min-height: 1000px;
+    background-image: url("http://www.zingerbugimages.com/backgrounds/white_construction_paper_seamless.jpg");
+    background-repeat: repeat;
+}
+
+
+/*intro section*/
+.header__h1 {
+    font-family: "Zapfino", sans serif;
+    text-decoration: underline;
+    margin: 20px 0 0 30px;
+}
+
+.section__intro {
+    width:100%;
+}
+
+.h2 {
+    
+    margin: 0 0 0 35px;
+    font-family: "Zapfino";//Thonburi;
+}
+
+/* common styling for all bio sections */
+
+#intro__bio, 
+#skills__bio,
+#fitness__bio {
+    float:left;
+    width:66%;
+    margin-bottom:50px;
+}
+
+
+#intro__bio p,
+#skills__bio p, 
+#fitness__bio p {
+    margin-left:5%;
+    width:80%;
+    color:#34495e;
+    font-size: 12pt;
+    font-family: Thonburi;
+    line-height: 1.75em;
+    background-color: white;
+    padding:20px;
+}
+
+#intro__pic {
+    
+    float:left;
+    width:30%;
+    margin:40px 0 0 -90px;
+}
+
+#intro__pic img {
+    
+    width:450px;
+    //min-height:350px;
+    //background-color:gray;
+    margin-top:45px;
+    //border:solid 1px black;
+}
+
+/* h2 variation due to different positioning requirements - used in skills and fitness */
+.h2--type2 {
+
+    margin: 40px 0 0 35px;
+    font-family: "Zapfino";
+}
+
+/* skill section styling */
+.skills_first,
+.skills__second {
+    float:left;
+    width:100%;
+}
+
+.skills__second {
+    margin-top:40px;
+}
+
+#list_container {
+    float:left;
+    width:34%;
+    margin:138px 0 0 0px;
+}
+
+#skills__webskills h3, 
+#skills__busskills h3, 
+#skills__coding h3 {
+    font-family: Thonburi;
+    font-size: 1.1em;
+    margin-left:5%;
+    margin-bottom: -2%;
+    color:#2c3e50;
+}
+
+#skills__coding {
+    margin-left:25px;
+    float:left;
+    width:80%;
+    //color:#ecf0f1;
+    font-size: 12pt;
+    font-family: Thonburi;
+    line-height: 1.35em;
+    //border:solid .35em #E74C3C;
+    //border-radius: .75em;
+    background-color: #ecf0f1;//white;
+    padding:5px 0 5px 25px;
+}
+
+#skills_pie {
+    float:left;
+    //width:28.5%;
+    //margin:75px 0 0 40px;
+    margin-left:40px;
+    width:52.5%;
+    //color:#34495e;
+    //text-align: center;
+    //font-size: 12pt;
+    //font-family: Thonburi;
+    //line-height: 1.75em;
+   //margin-top:45px;
+    background-color: white;
+    //padding:20px;
+}
+
+#skills_pie img {
+    width:100%;
+}
+
+#list_container2 {
+    float:left;
+    width:34%;
+    margin:0 0 75px 90px;
+}
+
+#skills__webskills {
+    margin-left:45px;
+    float:left;
+    width:85%;
+    font-size: 12pt;
+    font-family: Thonburi;
+    line-height: 1.35em;
+    background-color: #ecf0f1;
+    padding:5px 0 5px 25px;
+}
+
+#skills__webskills ul li {
+    list-style-type: circle;
+    color:#34495e;
+}
+
+ #skills__coding ul li {
+    list-style-type: square;
+    color:#34495e;
+}
+
+/* styling for the footer contact details*/
+
+footer {
+    float:left;
+    height:200px;
+    width:100%;
+    background-color:#87C8CC;
+    margin-top:5%;
+ }    
+
+#footer__logo {
+    float:left;
+    margin-left:10px;
+    width:200px;
+    height:200px;
+    margin-top:20px;
+    background-image: url("../images/plogo1.png");
+    background-repeat: no-repeat;
+}
+
+/* identity - name and title */
+#ident {
+    float:left;
+}
+
+#ident h2 {
+    font-family: Thonburi;
+    font-size: 40pt;
+    color:#2c3e50;
+    margin:15px 0 0 25px;
+}
+
+#ident p {
+    font-family: Zapfino;
+    font-size: 30pt;
+    color:#ecf0f1;
+    margin:-10px 0 0 20px;
+} 
+
+/* contact details - box 1 contains phone email and address */
+.contact__box1 {
+    float: left;
+    margin:20px 0 0 65px;
+}
+
+.cont_deats {
+    float:left;
+    margin-top:-10px;
+}
+
+.cont_deats h5,
+.cont_deats p {
+    font-family: Thonburi;
+    font-size: 12pt;
+}
+
+.cont_deats a {
+    color:#2c3e50;
+    background-color: #ecf0f1;
+    padding:4px 10px;
+    border-radius: 5px;
+    border: solid 2px #2ecc71;
+    margin-left:5px;
+}
+
+/* contact details - box 2 contains social media links */
+.contact__box2 {
+
+    float:right;
+    margin:50px 20px 0 0;
+}
+
+#smicons li {
+    display: inline-block;
+    margin-left:12px;
+}
+
+.smi__h5 {
+
+    margin:20px 0 0 8px;
+    color:#ecf0f1;
+}
